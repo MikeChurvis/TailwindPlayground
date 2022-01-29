@@ -44,18 +44,23 @@ h1 {
 }
 
 a {
-  color: #42b983;
+  /* color: #42b983; */
+  @apply text-green-500 
+  hover:text-green-400 hover:border-b hover:border-green-400 
+  visited:text-green-600;
 }
 
 label {
-  margin: 0 0.5em;
-  font-weight: bold;
+  /* margin: 0 0.5em;
+  font-weight: bold; */
+  @apply my-0.5 font-bold;
 }
 
 code {
-  background-color: #eee;
+  /* background-color: #eee;
   padding: 2px 4px;
   border-radius: 4px;
-  color: #304455;
+  color: #304455; */
+  @apply px-1.5 py-1 bg-slate-200 rounded-sm text-slate-700;
 }
 </style>
